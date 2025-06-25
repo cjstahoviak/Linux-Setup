@@ -129,6 +129,7 @@ echo -e "\n[INFO] Adding aliases to .bashrc..."
 ALIASES=(
     "alias ccat='pygmentize -g'"
     "alias killgazebo=\"killall -9 gazebo & killall -9 gzserver & killall -9 gzclient\""
+    "alias c='clear'"
 )
 
 for alias_line in "${ALIASES[@]}"; do
